@@ -12,7 +12,8 @@ namespace sample
         {
             Console.WriteLine("Let me know if you have a questions");
 
-            Console.WriteLine("Never mind");
+            string line = Console.ReadLine();
+            Console.WriteLine("Thanks!");
         }
     }
 }
